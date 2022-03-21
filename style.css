@@ -39,6 +39,28 @@ form :where(select, textarea, button) {
     border: none;
 }
 form .row textarea {
-    
+    resize: none;
+    height: 110px;
+    font-size: 15;
+    padding: 8px 10px;
     border: 1px solid #999;
+}
+form .row .outer {
+    height: 47px;
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid #999;
+}
+form .row select {
+    font-size: 14px;
+}
+form button {
+    height: 52px;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+    background: #5256AD;
 }
