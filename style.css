@@ -31,6 +31,7 @@ form .row {
 form .row label {
     font-size: 18px;
     margin-bottom: 5px;
+    margin-top: 15px;
 }
 form :where(select, textarea, button) {
     border-radius: 7px;
@@ -55,6 +56,7 @@ form .row .outer {
 }
 form .row select {
     font-size: 14px;
+    background-color: #fff;
 }
 form button {
     height: 52px;
@@ -63,4 +65,7 @@ form button {
     font-size: 17px;
     cursor: pointer;
     background: #5256AD;
+}
+form .row select option {
+    background-color: #fff;
 }
